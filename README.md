@@ -1,38 +1,34 @@
 # Real-Time E-commerce Analytics Dashboard
 
-## 🚀 Overview
+## Overview
+This project implements a real-time e-commerce analytics pipeline using Apache Spark and Databricks. It processes user events such as product views, add-to-cart actions, and purchases, and generates live insights through an interactive dashboard.
 
-This project implements a real-time data pipeline and dashboard to track e-commerce user behavior and revenue metrics.
+## Features
+- Real-time event processing (view, add_to_cart, checkout, purchase)
+- Bronze-Silver-Gold data pipeline architecture
+- Live revenue tracking
+- User behavior distribution analysis
+- Top products by revenue and quantity
+- Interactive dashboard
 
-It processes streaming events such as product views, add-to-cart actions, and purchases, and generates live analytics using Databricks.
+## Tech Stack
+- Apache Spark
+- Databricks
+- SQL
+- Delta Lake
 
-##  Tech Stack
+## Architecture
+1. Event data is generated and ingested
+2. Raw events stored in Bronze layer
+3. Cleaned data stored in Silver layer
+4. Aggregated metrics stored in Gold layer
+5. Dashboard visualizes real-time insights
 
-* Apache Spark (Structured Streaming)
-* Databricks
-* SQL
-* Delta Lake
+## Dashboard Metrics
+- Total Revenue (Real-Time)
+- Revenue Trend
+- User Behavior Distribution
+- Top Products by Revenue
+- Top Products by Quantity
 
-##  Features
-
-* Real-time revenue tracking
-* User behavior distribution (views, carts, purchases)
-* Top products by revenue and quantity
-* Interactive dashboard with filters
-
-##  Architecture
-
-1. Event data is generated and ingested as a stream
-2. Spark Structured Streaming processes events
-3. Aggregated metrics stored in Delta tables
-4. Databricks SQL dashboard visualizes insights
-
-##  Dashboard
-
-
-
-##  Key Learning
-
-* Built end-to-end streaming pipeline
-* Applied real-time aggregations using Spark
-* Designed interactive analytics dashboard
+## Project Structure
