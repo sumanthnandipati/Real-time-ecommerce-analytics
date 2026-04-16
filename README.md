@@ -32,7 +32,7 @@ This project implements a real-time e-commerce analytics pipeline using Apache S
 - Top Products by Quantity
 
 ## Project Structure
-real-time-ecommerce-analytics
+real-time-ecommerce-analytics  \n
 ├── data
 ├── notebooks
 ├── sql
